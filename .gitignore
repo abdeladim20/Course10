@@ -1,0 +1,32 @@
+# Ignore object files
+*.o
+*.obj
+
+# Ignore precompiled headers
+*.gch
+*.pch
+
+# Ignore libraries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Ignore executables
+*.exe
+*.out
+*.app
+
+# Ignore executables with no extension (Linux/Mac) in repo root
+/*
+!/*.*
+!.gitignore
+
+# Ignore common build directories
+/build/
+/bin/
+/lib/
+/dist/
+/Debug/
+/Release/
