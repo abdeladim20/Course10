@@ -3,15 +3,15 @@ using namespace std;
 
 class clsPerson
 {
-private: // only accessable inside this calass
+private: // only accessable inside this class
     int Variabl1 = 7;
     int Function1() { return 50; }
 
-protected: // only accessable inside this calass and all classes inhirets this calss
+protected: // only accessable inside this class and all classes inhirets this class
     int Variabl2 = 100;
     int Function2() { return 60; }
 
-public: // accessable for everyone outside/inside/and classes inherits this class
+public: // accessable for everyone outside/inside and classes inherits this class
     string FirstName;
     string LastName;
     string FullName() { return FirstName + " " + LastName; }
